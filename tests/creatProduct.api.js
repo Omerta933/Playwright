@@ -16,7 +16,6 @@ test('search for product', async ({request})=>{
             select: 'title'
         }
 
-
     });
     
     console.log (await response.json())
